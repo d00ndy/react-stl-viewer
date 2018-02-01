@@ -333,16 +333,6 @@ var STLViewer = function (_Component) {
 	return STLViewer;
 }(_react.Component);
 
-STLViewer.propTypes = {
-	className: _react.PropTypes.string,
-	url: _react.PropTypes.string,
-	width: _react.PropTypes.number,
-	height: _react.PropTypes.number,
-	backgroundColor: _react.PropTypes.string,
-	modelColor: _react.PropTypes.string,
-	rotate: _react.PropTypes.bool,
-	orbitControls: _react.PropTypes.bool
-};
 STLViewer.defaultProps = {
 	backgroundColor: '#EAEAEA',
 	modelColor: '#B92C2C',

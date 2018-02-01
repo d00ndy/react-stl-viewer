@@ -4,16 +4,6 @@ import THREE from './Three';
 let OrbitControls = require('three-orbit-controls')(THREE);
 
 class STLViewer extends Component {
-	static propTypes = {
-		className: PropTypes.string,
-		url: PropTypes.string,
-		width: PropTypes.number,
-		height: PropTypes.number,
-		backgroundColor: PropTypes.string,
-		modelColor: PropTypes.string,
-		rotate: PropTypes.bool,
-		orbitControls: PropTypes.bool,
-	};
 
 	static defaultProps = {
 		backgroundColor: '#EAEAEA',
