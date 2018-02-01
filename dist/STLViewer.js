@@ -14,10 +14,6 @@ var _Three = require('./Three');
 
 var _Three2 = _interopRequireDefault(_Three);
 
-var _ScaleLoader = require('halogen/ScaleLoader');
-
-var _ScaleLoader2 = _interopRequireDefault(_ScaleLoader);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -324,16 +320,12 @@ var STLViewer = function (_Component) {
 						overflow: 'hidden'
 					}
 				},
-				_react2.default.createElement(
-					'div',
-					{ style: {
-							height: '100%',
-							display: 'flex',
-							justifyContent: 'center',
-							alignItems: 'center'
-						} },
-					_react2.default.createElement(_ScaleLoader2.default, { color: modelColor, size: '16px' })
-				)
+				_react2.default.createElement('div', { style: {
+						height: '100%',
+						display: 'flex',
+						justifyContent: 'center',
+						alignItems: 'center'
+					} })
 			);
 		}
 	}]);
